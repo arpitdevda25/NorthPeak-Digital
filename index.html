@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NorthPeak Digital is a premier digital agency building high-converting websites, branding, and digital marketing strategies to grow your business online.">
+  <meta name="keywords" content="digital agency, web development, UI UX design, SEO, social media marketing, shopify development, branding">
+  <meta name="theme-color" content="#0d1117">
+  
+  <title>NorthPeak Digital | Web Development, Branding & Digital Marketing</title>
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="NorthPeak Digital Home">
+        <img src="images/logo.png" alt="NorthPeak Digital Logo" class="logo-img" width="40" height="40">
+        <span class="brand-text">NorthPeak <span class="accent-text">Digital</span></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#testimonials" class="nav-link">Results</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary header-btn">Book Consultation</a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="nav-mobile">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile Navigation" hidden>
+      <ul class="mobile-nav-list">
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#testimonials" class="mobile-nav-link">Results</a></li>
+        <li><a href="#pricing" class="mobile-nav-link">Pricing</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        <li><a href="#contact" class="btn btn-primary mobile-btn">Book Free Consultation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span> Digital Growth Partner
+          </div>
+          <h1 class="hero-headline">Helping Businesses Grow Online</h1>
+          <p class="hero-description">
+            We build websites, branding and digital marketing that increase your revenue. Scalable digital solutions engineered for measurable performance.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary btn-large">Book Free Consultation</a>
+            <a href="#services" class="btn btn-secondary btn-large">Explore Services</a>
+          </div>
+
+          <!-- Quick Trust Metrics -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-value">60%+</span>
+              <span class="metric-label">Avg. Lead Boost</span>
+            </div>
+            <div class="metric-divider" aria-hidden="true"></div>
+            <div class="metric-item">
+              <span class="metric-value">120+</span>
+              <span class="metric-label">Projects Delivered</span>
+            </div>
+            <div class="metric-divider" aria-hidden="true"></div>
+            <div class="metric-item">
+              <span class="metric-value">99.4%</span>
+              <span class="metric-label">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-wrapper">
+            <img src="images/hero.jpg" alt="NorthPeak Digital Agency Dashboard and Workspace Visual" class="hero-img" width="600" height="450" loading="eager">
+            <div class="glass-card stat-overlay-card">
+              <div class="overlay-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+              </div>
+              <div>
+                <span class="overlay-title">Revenue Growth</span>
+                <span class="overlay-stat">+148% Year Over Year</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section (6 Cards) -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">What We Do</span>
+          <h2 class="section-title">Comprehensive Digital Services</h2>
+          <p class="section-desc">Tailored strategies to design, launch, and scale your brand in the digital landscape.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Card 1: Web Development -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-desc">Fast, responsive, custom websites built with clean code and conversion-focused architectures.</p>
+          </article>
+
+          <!-- Service Card 2: UI/UX Design -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                <path d="M2 2l7.586 7.586"></path>
+                <circle cx="11" cy="11" r="2"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">UI/UX Design</h3>
+            <p class="service-desc">User-centric interface designs and wireframes that create memorable user journeys.</p>
+          </article>
+
+          <!-- Service Card 3: SEO -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                <polyline points="11 8 11 11 14 11"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">SEO</h3>
+            <p class="service-desc">Technical search engine optimization that ranks your business higher for high-intent queries.</p>
+          </article>
+
+          <!-- Service Card 4: Social Media Marketing -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Social Media Marketing</h3>
+            <p class="service-desc">Targeted ad campaigns and organic strategy to amplify brand reach and customer engagement.</p>
+          </article>
+
+          <!-- Service Card 5: Shopify Development -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Shopify Development</h3>
+            <p class="service-desc">Custom e-commerce store creation optimized for seamless checkouts and high conversion rates.</p>
+          </article>
+
+          <!-- Service Card 6: Branding -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="service-title">Branding</h3>
+            <p class="service-desc">Distinct visual identities, logos, color systems, and guidelines that set your business apart.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Client Success</span>
+          <h2 class="section-title">Real Results from Real Clients</h2>
+          <p class="section-desc">See how NorthPeak Digital transforms brands and drives measurable growth.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <article class="testimonial-card">
+            <div class="stars-rating" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              "NorthPeak redesigned our website and increased our leads by 60%."
+            </blockquote>
+            <div class="client-info">
+              <div class="client-avatar" aria-hidden="true">S</div>
+              <div>
+                <cite class="client-name">Sarah</cite>
+                <span class="client-role">Founder, TechScale</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="testimonial-card">
+            <div class="stars-rating" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              "Their Shopify overhaul and branding increased our average order value by 45% within 90 days."
+            </blockquote>
+            <div class="client-info">
+              <div class="client-avatar" aria-hidden="true">M</div>
+              <div>
+                <cite class="client-name">Marcus Vance</cite>
+                <span class="client-role">CEO, Elevate Apparel</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="testimonial-card">
+            <div class="stars-rating" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              "The SEO strategy delivered 3x organic lead generation. Hands down the best digital team we've worked with."
+            </blockquote>
+            <div class="client-info">
+              <div class="client-avatar" aria-hidden="true">E</div>
+              <div>
+                <cite class="client-name">Elena Rostova</cite>
+                <span class="client-role">CMO, Veloce Global</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Transparent Pricing</span>
+          <h2 class="section-title">Plans Built for Every Stage</h2>
+          <p class="section-desc">Choose a plan tailored to your business goals. No hidden fees.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Pricing Card 1: Starter -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3 class="plan-name">Starter</h3>
+              <p class="plan-desc">Ideal for small businesses launching their online presence.</p>
+              <div class="plan-price">
+                <span class="currency">$</span><span class="amount">299</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li><span class="check-icon" aria-hidden="true">✔</span> Landing Page</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> Responsive Design</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> Contact Form</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> Basic SEO Setup</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-full select-plan-btn" data-plan="Starter Plan ($299)">Get Started</a>
+          </div>
+
+          <!-- Pricing Card 2: Professional (Featured) -->
+          <div class="pricing-card pricing-featured">
+            <div class="popular-tag">Most Popular</div>
+            <div class="pricing-header">
+              <h3 class="plan-name">Professional</h3>
+              <p class="plan-desc">Perfect for growing brands ready to scale lead generation.</p>
+              <div class="plan-price">
+                <span class="currency">$</span><span class="amount">799</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li><span class="check-icon" aria-hidden="true">✔</span> 5-Page Website</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> Custom UI/UX Design</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> Advanced SEO & Copy</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> Analytics Integration</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> Priority Support</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-full select-plan-btn" data-plan="Professional Plan ($799)">Choose Professional</a>
+          </div>
+
+          <!-- Pricing Card 3: Enterprise -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3 class="plan-name">Enterprise</h3>
+              <p class="plan-desc">Custom solution for brands demanding maximum market impact.</p>
+              <div class="plan-price custom-price">
+                <span class="amount">Custom Pricing</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li><span class="check-icon" aria-hidden="true">✔</span> Full Digital Ecosystem</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> E-Commerce & Shopify</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> Dedicated Growth Manager</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> Custom API & Automation</li>
+              <li><span class="check-icon" aria-hidden="true">✔</span> 24/7 SLA Support</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-full select-plan-btn" data-plan="Enterprise Custom Plan">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-container">
+        <div class="contact-text">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Book Your Free Consultation</h2>
+          <p class="section-desc">Ready to take your digital presence to the peak? Send us a message and our team will get back to you within 24 hours.</p>
+          
+          <div class="contact-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon" aria-hidden="true">⚡</span>
+              <div>
+                <strong>Fast Response</strong>
+                <p>Reply guaranteed within 24 business hours.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon" aria-hidden="true">🎯</span>
+              <div>
+                <strong>Tailored Strategy</strong>
+                <p>We analyze your business model before our call.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Container -->
+        <div class="contact-form-wrapper">
+          <form id="contact-form" class="contact-form" novalidate>
+            <!-- Form Response Message Banner -->
+            <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite" hidden></div>
+
+            <!-- Name Field -->
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Sarah Jenkins" aria-required="true">
+              <span class="error-message" id="name-error"></span>
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="e.g. sarah@example.com" aria-required="true">
+              <span class="error-message" id="email-error"></span>
+            </div>
+
+            <!-- Phone Field -->
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number <span class="required">*</span></label>
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="e.g. +1 (555) 019-2834" aria-required="true">
+              <span class="error-message" id="phone-error"></span>
+            </div>
+
+            <!-- Message Field -->
+            <div class="form-group">
+              <label for="message" class="form-label">Message / Project Details <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="4" class="form-control" placeholder="Tell us about your project goals, timeline, or required services..." aria-required="true"></textarea>
+              <span class="error-message" id="message-error"></span>
+            </div>
+
+            <button type="submit" id="submit-btn" class="btn btn-primary btn-full">
+              <span>Send Consultation Request</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo">
+          <img src="images/logo.png" alt="NorthPeak Digital Logo" class="logo-img" width="32" height="32">
+          <span class="brand-text">NorthPeak <span class="accent-text">Digital</span></span>
+        </a>
+        <p class="footer-tagline">Building websites, branding, and digital marketing that scale your revenue.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-title">Navigation</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Results</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-info">
+        <h4 class="footer-title">Contact Us</h4>
+        <p>Email: hello@northpeakdigital.com</p>
+        <p>Location: San Francisco, CA</p>
+      </div>
+    </div>
+
+    <!-- Mandatory Footer Line -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright">&copy; 2026 NorthPeak Digital. All rights reserved.</p>
+        <!-- Mandatory Link for Assignment -->
+        <p class="mandatory-task-text">
+          Built for Digital Heroes Training Task: <a href="https://digitalheroesco.com" target="_blank" rel="noopener noreferrer" class="hero-link">https://digitalheroesco.com</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
